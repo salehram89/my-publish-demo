@@ -1,12 +1,19 @@
-// @import "base";
 // You need the base only when you are not using bootstrap. In that case, go to _base.scss
 // to customize it as you may want.
+@import "base";
 
 @import "variables";
-@import "../../node_modules/bootstrap/scss/bootstrap";
+// @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Write your sass code here or import partials
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+ place-items: center;
+}
 
 h1 {
   color: tomato;
+ 
 }
